@@ -14257,7 +14257,7 @@ H.EF.prototype={}
 H.CT.prototype={
 Ax:function(a,b){C.bk.f1(window,"popstate",b)
 return new H.CV(this,b)},
-tj:function(a){return a.length===0?H.b(window.location.pathname)+H.b(window.location.search):"#"+a},
+tj:function(a){return a.length===0?H.b(window.location.pathname)+H.b(window.location.search):""+a},
 qa:function(){var u={},t=-1,s=new P.W($.J,[t])
 u.a=null
 u.a=this.Ax(0,new H.CU(u,new P.be(s,[t])))
